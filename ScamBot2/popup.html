@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScamBot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ScamBot</h1>
+    <form id="scanForm">
+      <!-- URL Input -->
+      <div class="form-group">
+        <label for="urlInput">Enter URL:</label>
+        <input type="text" id="urlInput" placeholder="https://example.com">
+        <button id="scanUrl" type="button">Scan URL</button>
+      </div>
+      <!-- File Input -->
+      <div class="form-group">
+        <label for="fileInput">Upload File:</label>
+        <input type="file" id="fileInput">
+        <button id="scanFile" type="button">Scan File</button>
+      </div>
+    </form>
+    <!-- Result Display -->
+    <div id="result"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
+
+
